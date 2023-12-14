@@ -1,2 +1,5 @@
-# stay-organized
-Workbook 8 workshop
+# Stay Organized Workshop
+
+Todos task manager as part of workshop with YearUp.
+
+
