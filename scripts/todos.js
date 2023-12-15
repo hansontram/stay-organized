@@ -21,3 +21,9 @@ function populateUserDropdown() {
             });
         });
 }
+
+// Add an event listener to dropdown 
+// Grab the value from the selected dropdown (id)
+// Function loadTasks: Use the id in the URL to fetch GET request
+// Function DisplayRows: loop through array and pass into displayRow function
+// Function displayRow: apply logic to display 
