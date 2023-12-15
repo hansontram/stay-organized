@@ -31,36 +31,50 @@
         </div>
       </div>
     </nav>
-    <h1>Add New Task</h1>
-    <form class="form-control">
-      <div class="form-group">
-        <label for="categoryName" class="form-label mt-2">User Id</label>
+    <h1 class="m-3">Add New Task</h1>
+    <main class="px-5">
+      <form class="form-control">
+        <label for="userID" class="form-label mt-2">User ID</label>
         <input
           type="text"
           class="form-control"
-          id="categoryName"
-          placeholder="Enter userId"
+          id="userID"
+          placeholder=""
         />
-      </div>
-      <div class="form-group">
-        <label for="categoryTitle" class="form-label mt-2">Title</label>
-        <input
-          type="text"
-          class="form-control"
-          id="categoryTitle"
-          placeholder="Enter a Title"
-        />
-      </div>
-      <div class="form-group">
-        <label for="completed" class="form-label mt-2">Completed</label>
-        <input
-          type="text"
-          class="form-control"
-          id="completed"
-          placeholder="Enter true or false"
-        />
-      </div>
-      <button id="saveButton" class="btn btn-primary">Add</button>
-    </form>
+        <h3 class="text-primary h5">Select your Username</h>
+        <select id="usernameSelect" class="form-control my-2">
+          <option>Select user</option>
+        </select>
+        <h3 class="text-primary h5">Select a Category</h3>
+        <select id="categorySelect" class="form-control my-2">
+          <option>Select category</option>
+        </select>
+        <h3 class="text-primary h5">Urgency</h3>
+        <select id="urgencySelect" class="form-control my-2">
+          <option>Low</option>
+          <option>Medium</option>
+          <option>High</option>
+        </select>
+        <div class="form-group">
+          <label for="description" class="form-label mt-2">Description</label>
+          <input
+            type="text"
+            class="form-control"
+            id="description"
+            placeholder="Enter description"
+          />
+        </div>
+        <div class="form-group">
+          <label for="deadline" class="form-label mt-2">Deadline</label>
+          <input
+            type="text"
+            class="form-control"
+            id="deadline"
+            placeholder="YYYY-MM-DD"
+          />
+        </div>
+        <button id="saveButton" class="btn btn-primary">Add</button>
+      </form>
+    </main>
   </body>
 </html>
